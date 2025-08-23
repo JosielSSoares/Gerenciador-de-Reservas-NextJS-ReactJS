@@ -1,9 +1,8 @@
 export type userProps = {
 
-    id?: number,
-    nome?: string,
-    data?: string,
-    horario?: string,
-    status?: boolean
-
+    id: number,
+    nome: string,
+    data_reserva: string,
+    horas: string,
+    status: number
 }
